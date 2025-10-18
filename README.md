@@ -4,6 +4,10 @@
 
 **Sahaaya** is an AI-powered Emergency Aid Companion that provides real-time, step-by-step first-aid guidance through voice and text input. Built for hackathons with a focus on accessibility, offline functionality, and life-saving emergency response.
 
+
+https://github.com/user-attachments/assets/d09de5f1-821c-43d1-b1cf-220e6f3fa739
+
+
 ## 🌟 Features
 
 ### 🎯 Core Functionality
