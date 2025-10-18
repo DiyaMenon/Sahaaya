@@ -329,23 +329,11 @@ logger.log_user_interaction("voice_input", {
 
 4. **Accuracy**: While we strive for accuracy, emergency protocols should be verified with medical professionals.
 
-## 🏆 Awards and Recognition
-
-- 🥇 **Best Healthcare Innovation** - TechCrunch Disrupt 2024
-- 🏆 **People's Choice Award** - Global Hackathon 2024  
-- 🎖️ **Social Impact Award** - MIT Health Hackathon
-- ⭐ **Featured App** - Streamlit Community Showcase
 
 ## 📞 Support and Contact
 
 - **GitHub Issues**: [Report bugs or request features](https://github.com/your-username/sahaaya/issues)
-- **Email**: sahaaya.support@example.com
-- **Discord**: [Join our community](https://discord.gg/sahaaya)
-- **Documentation**: [Full docs](https://sahaaya.readthedocs.io)
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -363,19 +351,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Sahaaya** - *Your AI Partner in Moments that Matter*
 
-[🚀 Deploy Now](https://streamlit.io/cloud) • [📚 Documentation](docs/) • [🐛 Report Bug](issues/) • [💡 Request Feature](issues/)
+[🚀 Deploy Now](https://streamlit.io/cloud) 
 
-*Made for hackathons, designed for life-saving impact.*
-
-</div>
-
-## 🎬 Demo Video
-
-[🎥 Watch the Demo](https://youtu.be/demo-video-link)
-
-*2-minute demo showing Sahaaya in action during a cardiac arrest emergency scenario.*
-
----
 
 ## 🚀 Get Started Now
 
