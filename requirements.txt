@@ -1,21 +1,17 @@
-# Core UI
-streamlit>=1.28.0
-streamlit-extras>=0.3.0
-
-# AI + NLP
-openai>=1.0.0
-transformers>=4.20.0
-torch>=2.3.0
-sentence-transformers>=2.0.0
-huggingface-hub>=0.15.0
-
-# Voice + Audio
-speechrecognition>=3.10.0
-pyttsx3>=2.90
-gtts>=2.4.0
-pyaudio==0.2.11
-
-# Utils
-pandas>=1.5.0
-numpy>=1.24.0
-requests>=2.31.0
+streamlit
+streamlit-folium
+streamlit-extras
+geopy
+requests
+pillow
+numpy
+pandas
+scikit-learn
+SpeechRecognition==3.8.1
+pyttsx3==2.90
+gTTS
+opencv-python-headless
+folium
+watchdog
+transformers
+torch
