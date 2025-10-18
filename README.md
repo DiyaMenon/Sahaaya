@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 # 🆘 Sahaaya - AI Emergency Aid Companion
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Hackathon Ready](https://img.shields.io/badge/Hackathon-Ready-green.svg)](https://github.com/your-username/sahaaya)
 
 > **Your AI Partner in Moments that Matter** ⚡
 
@@ -311,4 +305,4 @@ streamlit run app.py
 **Your emergency companion is ready to help! 🚑✨**
 =======
 # Sahaaya
->>>>>>> 973c79a16ef8206c267420dddb9bd4c9cb1472dd
+
