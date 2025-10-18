@@ -15,12 +15,9 @@ https://github.com/user-attachments/assets/d09de5f1-821c-43d1-b1cf-220e6f3fa739
 - **🗣️ Voice Input**: Speak your emergency situation naturally - no need to memorize commands
 - **🔊 Text-to-Speech**: Every instruction is read aloud with calm, clear voice guidance
 - **📋 Step-by-Step Guidance**: Structured, medical-grade first-aid instructions with timing and warnings
-- **🚨 Panic Button**: One-click emergency services contact with immediate guidance
-- **📱 Mobile Optimized**: Fully responsive design that works perfectly on smartphones
 
 ### 🎨 User Experience
 - **✨ Glassmorphism UI**: Beautiful, modern interface with blur effects and smooth animations
-- **🌗 Dark/Light Mode**: Comfortable viewing in any lighting condition
 - **♿ Accessibility Features**: High contrast mode, large text options, and screen reader support
 - **🎵 Calm Design**: Soothing colors and animations to reduce panic in emergency situations
 
@@ -273,19 +270,6 @@ logger.log_user_interaction("voice_input", {
 4. **Accuracy**: While we strive for accuracy, emergency protocols should be verified with medical professionals.
 
 
-## 📞 Support and Contact
-
-- **GitHub Issues**: [Report bugs or request features](https://github.com/your-username/sahaaya/issues)
-
-
-## 🙏 Acknowledgments
-
-- **Medical Consultants**: Dr. Sarah Johnson, Dr. Michael Chen
-- **Voice Processing**: Built with SpeechRecognition and pyttsx3
-- **UI Framework**: Powered by Streamlit
-- **Design Inspiration**: Apple Health, Google Assistant
-- **Emergency Data**: Based on AHA and Red Cross guidelines
-
 ---
 
 <div align="center">
@@ -294,7 +278,7 @@ logger.log_user_interaction("voice_input", {
 
 **Sahaaya** - *Your AI Partner in Moments that Matter*
 
-[🚀 Deploy Now](https://sahaaya-ez3elxfudwyghhskywnfvw.streamlit.app/) 
+[🚀 Deployed Link](https://sahaaya-ez3elxfudwyghhskywnfvw.streamlit.app/) 
 
 
 ## 🚀 Get Started Now
