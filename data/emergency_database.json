@@ -1,0 +1,309 @@
+{
+  "emergencies": {
+    "cardiac_arrest": {
+      "name": "Cardiac Arrest",
+      "keywords": [
+        "not breathing", "no pulse", "collapsed", "unconscious", "heart stopped",
+        "cardiac arrest", "chest pain", "heart attack", "unresponsive"
+      ],
+      "icon": "❤️",
+      "color": "#FF4444",
+      "urgency": "critical",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Check Responsiveness",
+          "instruction": "Shake the person gently and shout 'Are you okay?' Check if they respond.",
+          "duration": "10 seconds",
+          "warning": "Do not shake if you suspect spinal injury"
+        },
+        {
+          "step": 2,
+          "title": "Call Emergency Services",
+          "instruction": "Call 911 (or local emergency number) immediately. Ask someone nearby to find an AED if available.",
+          "duration": "30 seconds",
+          "warning": "Stay on the line with emergency services"
+        },
+        {
+          "step": 3,
+          "title": "Position the Person",
+          "instruction": "Place the person on their back on a firm surface. Tilt their head back slightly by lifting the chin.",
+          "duration": "15 seconds",
+          "warning": "Ensure airway is clear"
+        },
+        {
+          "step": 4,
+          "title": "Hand Placement",
+          "instruction": "Place the heel of one hand on the center of the chest between the nipples. Place your other hand on top, interlocking fingers.",
+          "duration": "10 seconds",
+          "warning": "Keep arms straight and shoulders directly over hands"
+        },
+        {
+          "step": 5,
+          "title": "Start Chest Compressions",
+          "instruction": "Push hard and fast at least 2 inches deep. Compress at 100-120 beats per minute. Count: 1, 2, 3... up to 30.",
+          "duration": "18 seconds",
+          "warning": "Allow complete chest recoil between compressions"
+        },
+        {
+          "step": 6,
+          "title": "Rescue Breaths",
+          "instruction": "Tilt head back, lift chin. Pinch nose shut. Cover their mouth with your mouth and give 2 breaths, each lasting 1 second.",
+          "duration": "10 seconds",
+          "warning": "Watch for chest rise with each breath"
+        },
+        {
+          "step": 7,
+          "title": "Continue CPR",
+          "instruction": "Continue cycles of 30 chest compressions and 2 rescue breaths until emergency services arrive or the person starts breathing normally.",
+          "duration": "ongoing",
+          "warning": "Do not stop CPR unless person shows signs of life"
+        }
+      ]
+    },
+    "choking": {
+      "name": "Choking",
+      "keywords": [
+        "choking", "can't breathe", "airway blocked", "heimlich", "food stuck",
+        "gasping", "coughing", "throat", "swallowing problem"
+      ],
+      "icon": "🫁",
+      "color": "#FF6B35",
+      "urgency": "critical",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Assess the Situation",
+          "instruction": "Ask 'Are you choking?' If they can speak or cough forcefully, encourage continued coughing.",
+          "duration": "5 seconds",
+          "warning": "If they cannot speak, cough, or breathe, act immediately"
+        },
+        {
+          "step": 2,
+          "title": "Call for Help",
+          "instruction": "Call 911 immediately or have someone else call while you provide aid.",
+          "duration": "10 seconds",
+          "warning": "Time is critical - don't delay treatment"
+        },
+        {
+          "step": 3,
+          "title": "Back Blows",
+          "instruction": "Stand behind the person. Lean them forward and give 5 sharp back blows between the shoulder blades with the heel of your hand.",
+          "duration": "15 seconds",
+          "warning": "Support their chest while giving back blows"
+        },
+        {
+          "step": 4,
+          "title": "Abdominal Thrusts",
+          "instruction": "Stand behind person, wrap arms around waist. Place fist above navel, grasp with other hand. Give 5 quick upward thrusts.",
+          "duration": "15 seconds",
+          "warning": "Do not perform on pregnant women or infants"
+        },
+        {
+          "step": 5,
+          "title": "Alternate and Repeat",
+          "instruction": "Continue alternating 5 back blows and 5 abdominal thrusts until the object is expelled or person becomes unconscious.",
+          "duration": "ongoing",
+          "warning": "If person becomes unconscious, begin CPR"
+        }
+      ]
+    },
+    "bleeding": {
+      "name": "Severe Bleeding",
+      "keywords": [
+        "bleeding", "blood", "cut", "wound", "hemorrhage", "injury",
+        "deep cut", "gash", "laceration", "puncture", "arterial bleeding"
+      ],
+      "icon": "🩸",
+      "color": "#DC143C",
+      "urgency": "high",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Ensure Safety",
+          "instruction": "Put on gloves if available. Ensure the scene is safe for you and the injured person.",
+          "duration": "10 seconds",
+          "warning": "Protect yourself from bloodborne pathogens"
+        },
+        {
+          "step": 2,
+          "title": "Apply Direct Pressure",
+          "instruction": "Place a clean cloth or sterile gauze directly on the wound. Apply firm, steady pressure with your hands.",
+          "duration": "continuous",
+          "warning": "Do not remove cloth if it becomes soaked - add more layers"
+        },
+        {
+          "step": 3,
+          "title": "Call Emergency Services",
+          "instruction": "Call 911 if bleeding is severe, won't stop after 10 minutes, or if you see signs of shock.",
+          "duration": "30 seconds",
+          "warning": "Describe the severity and location of the bleeding"
+        },
+        {
+          "step": 4,
+          "title": "Elevate if Possible",
+          "instruction": "If no broken bones are suspected, raise the injured area above the level of the heart while maintaining pressure.",
+          "duration": "ongoing",
+          "warning": "Do not elevate if it causes more pain or you suspect fracture"
+        },
+        {
+          "step": 5,
+          "title": "Monitor for Shock",
+          "instruction": "Watch for pale skin, rapid breathing, weakness. Keep person lying down and cover with blanket to maintain body temperature.",
+          "duration": "ongoing",
+          "warning": "Signs of shock require immediate emergency care"
+        }
+      ]
+    },
+    "burns": {
+      "name": "Burns",
+      "keywords": [
+        "burn", "burned", "fire", "hot", "scalded", "thermal", "chemical burn",
+        "electrical burn", "steam", "boiling water", "acid", "skin damage"
+      ],
+      "icon": "🔥",
+      "color": "#FF8C00",
+      "urgency": "high",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Ensure Safety",
+          "instruction": "Remove the person from the source of the burn. Turn off electricity, extinguish flames, or move away from chemicals.",
+          "duration": "immediate",
+          "warning": "Do not put yourself at risk"
+        },
+        {
+          "step": 2,
+          "title": "Assess Severity",
+          "instruction": "Check the size and depth of burn. Call 911 for large burns (larger than palm), burns on face/hands/feet/genitals, or third-degree burns.",
+          "duration": "30 seconds",
+          "warning": "When in doubt, seek professional medical help"
+        },
+        {
+          "step": 3,
+          "title": "Cool the Burn",
+          "instruction": "Run cool (not cold) water over the burn for 10-20 minutes. Remove jewelry/clothing before swelling begins.",
+          "duration": "10-20 minutes",
+          "warning": "Do not use ice, butter, or oils on burns"
+        },
+        {
+          "step": 4,
+          "title": "Protect the Area",
+          "instruction": "Cover with a sterile, non-adhesive bandage or clean cloth. Do not break blisters if they form.",
+          "duration": "5 minutes",
+          "warning": "Avoid cotton balls or fluffy materials that can stick"
+        },
+        {
+          "step": 5,
+          "title": "Monitor and Treat Pain",
+          "instruction": "Give over-the-counter pain medication as needed. Watch for signs of infection: increased pain, fever, drainage, or red streaking.",
+          "duration": "ongoing",
+          "warning": "Seek medical attention if signs of infection develop"
+        }
+      ]
+    },
+    "fainting": {
+      "name": "Fainting/Unconsciousness",
+      "keywords": [
+        "fainted", "unconscious", "passed out", "dizzy", "lightheaded",
+        "syncope", "collapsed", "unresponsive", "lost consciousness"
+      ],
+      "icon": "😵",
+      "color": "#9370DB",
+      "urgency": "medium",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Check Responsiveness",
+          "instruction": "Gently shake the person's shoulders and call their name loudly. Check if they respond to voice or touch.",
+          "duration": "10 seconds",
+          "warning": "Do not shake vigorously if you suspect head or neck injury"
+        },
+        {
+          "step": 2,
+          "title": "Position Safely",
+          "instruction": "If breathing normally, place in recovery position (on their side). If not breathing normally, prepare for CPR.",
+          "duration": "15 seconds",
+          "warning": "Check for normal breathing - look, listen, feel"
+        },
+        {
+          "step": 3,
+          "title": "Call for Help",
+          "instruction": "Call 911 if person doesn't wake up within 1 minute, has difficulty breathing, or you're concerned about their condition.",
+          "duration": "30 seconds",
+          "warning": "Better to call emergency services unnecessarily than to wait too long"
+        },
+        {
+          "step": 4,
+          "title": "Elevate Legs",
+          "instruction": "If person is breathing and conscious but weak, have them lie down and elevate legs 8-12 inches above heart level.",
+          "duration": "ongoing",
+          "warning": "Only if no suspected spinal injury"
+        },
+        {
+          "step": 5,
+          "title": "Monitor Vital Signs",
+          "instruction": "Stay with the person, monitor breathing and consciousness. Loosen tight clothing around neck and waist.",
+          "duration": "ongoing",
+          "warning": "Be prepared to start CPR if breathing stops"
+        }
+      ]
+    },
+    "allergic_reaction": {
+      "name": "Severe Allergic Reaction",
+      "keywords": [
+        "allergic reaction", "anaphylaxis", "swelling", "hives", "difficulty breathing",
+        "epipen", "epinephrine", "rash", "throat closing", "allergy"
+      ],
+      "icon": "🤧",
+      "color": "#FF69B4",
+      "urgency": "critical",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Call Emergency Services",
+          "instruction": "Call 911 immediately if person has difficulty breathing, swelling of face/throat, or widespread rash.",
+          "duration": "30 seconds",
+          "warning": "Anaphylaxis can be life-threatening within minutes"
+        },
+        {
+          "step": 2,
+          "title": "Use Epinephrine",
+          "instruction": "If person has an epinephrine auto-injector (EpiPen), help them use it immediately into the outer thigh.",
+          "duration": "10 seconds",
+          "warning": "Remove safety cap and press firmly against thigh for 10 seconds"
+        },
+        {
+          "step": 3,
+          "title": "Keep Person Calm",
+          "instruction": "Have person sit up if breathing is difficult, or lie down if feeling faint. Remove or avoid the allergen if known.",
+          "duration": "ongoing",
+          "warning": "Do not leave person alone"
+        },
+        {
+          "step": 4,
+          "title": "Monitor Breathing",
+          "instruction": "Watch for signs of worsening: increased difficulty breathing, loss of consciousness, or severe drop in blood pressure.",
+          "duration": "ongoing",
+          "warning": "Be prepared to perform CPR if person becomes unresponsive"
+        },
+        {
+          "step": 5,
+          "title": "Prepare for Second Dose",
+          "instruction": "If symptoms don't improve or worsen after 5-15 minutes, give second epinephrine dose if available.",
+          "duration": "as needed",
+          "warning": "Continue monitoring until emergency medical help arrives"
+        }
+      ]
+    }
+  },
+  "emergency_numbers": {
+    "US": "911",
+    "UK": "999",
+    "EU": "112",
+    "India": "108",
+    "Australia": "000",
+    "Canada": "911"
+  },
+  "disclaimer": "Sahaaya provides first-aid guidance based on recognized medical standards. This app is not a substitute for professional medical care. Always call emergency services for serious medical emergencies. The information provided should not replace proper first-aid training."
+}

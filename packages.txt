@@ -1,0 +1,21 @@
+# System packages required for the app to run properly on cloud platforms
+
+# Audio processing libraries for pyttsx3 and speech recognition
+espeak
+espeak-data
+libespeak1
+libespeak-dev
+libasound2-dev
+portaudio19-dev
+python3-pyaudio
+
+# System libraries for various dependencies
+build-essential
+python3-dev
+libffi-dev
+libssl-dev
+
+# Additional system packages that may be needed
+curl
+wget
+git

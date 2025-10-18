@@ -1,0 +1,57 @@
+[global]
+# If false, the file watcher will not work.
+# This is useful for deployment on cloud platforms where file systems are read-only.
+developmentMode = false
+
+# Allows you to control whether the app is allowed to display images in the sidebar.
+showWarningOnDirectExecution = false
+
+[server]
+# The port where the server will listen for browser connections.
+port = 8501
+
+# The base path for the URL where Streamlit should be reachable from.
+# This is useful if you serve Streamlit behind a reverse proxy.
+baseUrlPath = ""
+
+# Enables support for CORS headers, to allow for cross-origin requests.
+enableCORS = false
+
+# Enables support for websockets compression.
+enableWebsocketCompression = false
+
+# Whether to enable file uploading.
+maxUploadSize = 200
+
+# Whether to enable file downloads.
+maxMessageSize = 200
+
+[browser]
+# Whether to server the app in headless mode, i.e., suppress the browser from opening.
+serverAddress = "0.0.0.0"
+
+# Whether to open a browser tab on startup.
+gatherUsageStats = false
+
+# The browser tab title.
+title = "🆘 Sahaaya - AI Emergency Aid Companion"
+
+[theme]
+# The preset Streamlit theme that your custom theme inherits from.
+# One of "light" or "dark".
+base = "dark"
+
+# Primary accent color for interactive elements.
+primaryColor = "#4facfe"
+
+# Background color for the main content area.
+backgroundColor = "#0e1117"
+
+# Background color used for the sidebar and most interactive widgets.
+secondaryBackgroundColor = "#262730"
+
+# Color used for almost all text.
+textColor = "#fafafa"
+
+# Font family for all text in Streamlit apps.
+font = "sans serif"
