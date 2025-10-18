@@ -26,12 +26,6 @@
 - **♿ Accessibility Features**: High contrast mode, large text options, and screen reader support
 - **🎵 Calm Design**: Soothing colors and animations to reduce panic in emergency situations
 
-### 🔧 Advanced Features
-- **📴 Offline Mode**: Core functionality works without internet connection
-- **🏥 Hospital Finder**: Locate nearest emergency services with map integration
-- **🌍 Multi-Country Support**: Emergency numbers and protocols for 15+ countries
-- **📚 Educational Mode**: Learn first-aid techniques when you're not in an emergency
-- **📊 Analytics Ready**: Built-in logging for usage analytics and improvement
 
 ## 🚀 Quick Start
 
@@ -60,34 +54,6 @@ streamlit run app.py
 ```
 
 The app will open at `http://localhost:8501` 🎉
-
-## 🏗️ Project Structure
-
-```
-sahaaya/
-├── 📱 app.py                    # Main Streamlit application
-├── 📋 requirements.txt          # Python dependencies
-├── 📄 README.md                # This file
-├── 🔧 packages.txt             # System dependencies
-│
-├── 🗃️ data/
-│   └── emergency_database.json  # Medical emergency knowledge base
-│
-├── 🛠️ utils/
-│   ├── ai_engine.py            # Emergency detection AI
-│   ├── speech_utils.py         # Voice processing
-│   └── helpers.py              # Utility functions
-│
-├── 📁 assets/
-│   ├── icons/                  # App icons and graphics
-│   └── sounds/                 # Audio files
-│
-├── 🎨 styles/
-│   └── custom.css              # Additional styling
-│
-└── ⚙️ .streamlit/
-    └── config.toml             # Streamlit configuration
-```
 
 ## 🧠 How It Works
 
@@ -177,27 +143,6 @@ hospitals = location_helper.find_nearby_hospitals(lat, lon)
 map_url = location_helper.generate_maps_url(lat, lon, "hospital")
 ```
 
-## 🎯 Hackathon-Ready Features
-
-### ✅ Technical Excellence
-- **Clean Architecture**: Modular design with separation of concerns
-- **Error Handling**: Robust error handling and graceful degradation
-- **Performance**: Fast AI inference and responsive UI
-- **Testing**: Unit tests and integration tests included
-- **Documentation**: Comprehensive docs and inline comments
-
-### ✅ Visual Appeal
-- **Modern Design**: Glassmorphism and neumorphic design elements
-- **Animations**: Smooth transitions and loading states
-- **Professional UI**: Apple Health + AI Assistant inspired design
-- **Responsive**: Perfect on desktop, tablet, and mobile
-
-### ✅ Innovation Points
-- **AI-Powered**: Natural language emergency detection
-- **Voice First**: Complete voice interface for hands-free operation
-- **Offline Capable**: Works even without internet
-- **Accessibility**: WCAG 2.1 compliant design
-- **Multi-Modal**: Text, voice, and visual guidance
 
 ## 📱 Usage Examples
 
@@ -351,7 +296,7 @@ logger.log_user_interaction("voice_input", {
 
 **Sahaaya** - *Your AI Partner in Moments that Matter*
 
-[🚀 Deploy Now](https://streamlit.io/cloud) 
+[🚀 Deploy Now](https://sahaaya-ez3elxfudwyghhskywnfvw.streamlit.app/) 
 
 
 ## 🚀 Get Started Now
