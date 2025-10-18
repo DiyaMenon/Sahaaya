@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🆘 Sahaaya - AI Emergency Aid Companion
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
@@ -386,3 +387,6 @@ streamlit run app.py
 ```
 
 **Your emergency companion is ready to help! 🚑✨**
+=======
+# Sahaaya
+>>>>>>> 973c79a16ef8206c267420dddb9bd4c9cb1472dd
